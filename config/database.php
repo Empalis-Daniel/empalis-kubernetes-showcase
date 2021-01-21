@@ -2,7 +2,7 @@
 class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
-		'persistent' => true,
+		'persistent' => false,
 		'host' => 'mysql',
 		'login' => 'cakephp',
 		'password' => 'pass4root',
