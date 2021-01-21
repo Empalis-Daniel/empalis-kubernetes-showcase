@@ -7,7 +7,7 @@
 <body>
  
 <?php
-$pdo = new PDO('mysql:host=mysql:3306;dbname=empalis', 'cakephp', 'pass4root');
+$pdo = new PDO('mysql:host=mysql:3306;dbname=default', 'cakephp', 'pDDFh0LWkApaNWvY2vuxTytBwGPjWHuytGv2YaRgRpZ7kiF6s9');
 $show_form = true; 
 $error = null;
  
