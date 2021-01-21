@@ -15,10 +15,6 @@
 				'title' => 'Gästebuch',
 				'url' => array('controller' => 'entries', 'action' => 'index')
 			),
-			array(
-				'title' => 'Beispiele',
-				'url' => array('controller' => 'pages', 'action' => 'display', 'beispiele')
-			)
 		);
 		
 		public function main() {
