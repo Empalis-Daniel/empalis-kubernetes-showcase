@@ -1,0 +1,47 @@
+@import "http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic";
+html, body { height: 100%; }
+
+#root { clear: both; min-height: 100%; height: auto !important; height: 100%; margin-bottom: -152px; }
+#root #root_footer { height: 152px; }
+
+#footer { clear: both; position: relative; height: 152px; }
+
+body { font-family: Ubuntu, sans-serif; color: #424242; font-size: 14px; line-height: 20px; margin: 0px; background: white url("../img/pattern.png") repeat; }
+
+a { color: #306e73; text-decoration: none; }
+a:hover, a:active { color: #424242; }
+
+p, ul, ol, li, figure, figcaption { margin: 0px; padding: 0px; }
+
+p { text-align: justify; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; margin: 0px 0px 20px; padding: 0px; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 14px; line-height: 20px; margin: 0px; }
+
+h1 { font-size: 22px; line-height: 30px; font-weight: lighter; color: #306e73; margin: 10px 0px 20px; }
+
+h2 { font-size: 18px; color: #306e73; margin: 20px 0px 10px; }
+
+.container { width: 960px; margin: 0px auto; }
+
+.borderBox, #eyeCatcher, figure img { border: 6px solid #c9c9c9; }
+
+.columns { width: 990px; overflow: hidden; *zoom: 1; }
+.columns .column { width: 300px; margin: 0px 30px 0px 0px; float: left; }
+
+#logo { color: #5e9698; text-transform: uppercase; line-height: 30px; font-size: 22px; font-weight: bold; text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6); margin-top: 40px; float: left; }
+#logo strong { color: #ffffff; }
+
+nav#mainMenu { float: right; margin-top: 40px; }
+nav#mainMenu a { color: #ffffff; display: block; float: left; text-transform: uppercase; margin-left: 30px; line-height: 30px; font-size: 14px; position: relative; text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.6); overflow: hidden; }
+nav#mainMenu a:hover:after, nav#mainMenu a:active:after { content: ""; display: block; position: absolute; top: -1px; left: 10px; right: 10px; height: 1px; -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.5); box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.5); }
+
+#eyeCatcher { position: absolute; left: 50%; top: 100px; margin-left: -480px; }
+
+header { height: 220px; background: #306e73 url("../img/pattern.png") repeat; border-bottom: 1px solid #ffffff; -webkit-box-shadow: 0px 1px 0px #306e73; -moz-box-shadow: 0px 1px 0px #306e73; box-shadow: 0px 1px 0px #306e73; margin: 0px 0px 190px; }
+
+figure { margin: 20px 0px; }
+figure figcaption { font-style: italic; font-size: 12px; text-align: center; margin: 20px 0px 0px; padding: 10px 20px; background: #f3f3f3; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); }
+
+#footer { height: 102px; padding-top: 50px; }
+
+footer { margin: 0px 0px 0px; padding: 40px 0px; background: #306e73 url("../img/pattern.png") repeat; border-top: 1px solid #ffffff; -webkit-box-shadow: 0px -1px 0px #306e73; -moz-box-shadow: 0px -1px 0px #306e73; box-shadow: 0px -1px 0px #306e73; color: #ffffff; }
