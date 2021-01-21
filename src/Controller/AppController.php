@@ -27,8 +27,6 @@ use Cake\Event\Event;
  */
 class AppController extends Controller
 {
-    public $helpers = array('Nav');
-
     /**
      * Initialization hook method.
      *
@@ -52,4 +50,6 @@ class AppController extends Controller
         //$this->loadComponent('Security');
         //$this->loadComponent('Csrf');
     }
+
+    public $helpers = array('Nav');
 }
