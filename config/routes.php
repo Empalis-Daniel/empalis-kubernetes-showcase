@@ -64,12 +64,6 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
 
-	/**
-	 * test 
-     */
-
-    $routes->connect('/guestbook', array('controller' => 'entries', 'action' => 'index'));
-    
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
