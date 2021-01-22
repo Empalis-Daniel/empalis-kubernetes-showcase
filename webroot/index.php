@@ -37,23 +37,9 @@ function Validate()
 <div id="wrapper">
 	<div id="logo">
 	<hr id="top"/>
-    <img src="images/ibadat.jpg" id="tLeft" />
-    <img src="images/ravneet.jpg" id="tRight" />
-    <p id="title"><span id="title">IBADAT & RAVNEET's</span> <br/> Wedding</p>
-    
-    </div>
-    <div id="menu">
-    <hr/>
-    <ul id="mainMenu">
-	    <li><a href="index.html">Home</a></li>
-       	<li><a href="ourstory.html">Our Story</a></li>
-        <li><a href="memories.html">Memories</a></li>
-        <li><a href="#">Marriage Events</a></li>
-        <li><a href="guestbook.php" id="active">Guestbook</a></li>
-        <li><a href="#">Contact Us</a></li>
-    </ul>
-    <hr/>
-    </div>
+    <img src="img/empalis.png" id="tLeft" />
+    <img src="img/empalis.png" id="tRight" />
+    <p id="title"><span id="title">>>>> Empalis <<<<</span></p>
     <div id="content">
     <h2>Sign our Guest Book </h2>
    		<form name="guest" method="post" action="addcomment.php" onsubmit="return Validate();">
