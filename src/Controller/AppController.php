@@ -50,5 +50,5 @@ class AppController extends Controller
          */
         //$this->loadComponent('FormProtection');
     }
-    public $helpers = array('Nav');
 }
+
