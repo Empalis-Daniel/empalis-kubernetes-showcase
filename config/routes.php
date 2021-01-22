@@ -22,7 +22,6 @@ use Cake\Routing\RouteBuilder;
 use Cake\Routing\Router;
 use Cake\Routing\Route\DashedRoute;
 
-
 /**
  * The default class to use for all routes
  *
@@ -63,19 +62,18 @@ Router::scope('/', function (RouteBuilder $routes) {
      * its action called 'display', and we pass a param to select the view file
      * to use (in this case, src/Template/Pages/home.ctp)...
      */
-	$routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
-
+    $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
 
 	/**
 	 * test 
      */
 
-	$routes->connect('/guestbook', array('controller' => 'entries', 'action' => 'index'));
-
+    $routes->connect('/guestbook', array('controller' => 'entries', 'action' => 'index'));
+    
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
-    $routes->connect('/*', ['controller' => 'Pages', 'action' => 'display']);
+    $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
 
     /**
      * Connect catchall routes for all controllers.
@@ -98,3 +96,15 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
     $routes->fallbacks(DashedRoute::class);
 });
+
+/**
+ * If you need a different set of middleware or none at all,
+ * open new scope and define routes there.
+ *
+ * ```
+ * Router::scope('/api', function (RouteBuilder $routes) {
+ *     // No $routes->applyMiddleware() here.
+ *     // Connect API actions here.
+ * });
+ * ```
+ */
