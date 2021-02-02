@@ -1,7 +1,7 @@
 <?php
 	$host="mysql"; //Add your SQL Server host here
 	$user="cakephp"; //SQL Username
-	$pass="pass4root"; //SQL Password
+	$pass="FVtVOTtv1hsbT3EE"; //SQL Password
 	$dbname="default"; //SQL Database Name
 	$con=mysqli_connect($host,$user,$pass,$dbname);
 	if (mysqli_connect_errno($con))

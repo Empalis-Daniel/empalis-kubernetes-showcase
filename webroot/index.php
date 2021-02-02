@@ -38,7 +38,6 @@ function Validate()
 	<div id="logo">
 	<hr id="top"/>
     <img src="img/empalis.png" id="tLeft" />
-    <img src="img/empalis.png" id="tRight" />
     <p id="title"><span id="title">>>>> Empalis <<<<</span></p>
     <div id="content">
     <h2>Sign our Guest Book </h2>
