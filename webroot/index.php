@@ -37,22 +37,26 @@ function Validate()
 <div id="wrapper">
 	<div id="logo">
 	<hr id="top"/>
-    <img src="img/empalis.png" id="tLeft" />
-    <p id="title"><span id="title">>>>> VW Showcase <<<<</span></p>
+    <img src="img/empalis.png" id="tLeft" style="width:400px; height:150px;" />
+	<img src="img/ibm.png" id="tMid" style="width:400px; height:150px;" />
+	<img src="img/vw.png" id="tRight" style="width:400px; height:150px;" />
+    <p id="title"><span id="title">>>>> Kubernetes / Spectrum Protect Plus Showcase <<<<</span></p>
     <div id="content">
     <h2>Sign our Guest Book:</h2>
    		<form name="guest" method="post" action="addcomment.php" onsubmit="return Validate();">
 			<span>Name:</span>    <input type="text" name="name"/><br />
             <span>Email:</span> <input type="text" name="email"/><br />
-            <p>Message:</p> <textarea name="message" rows="10" cols="50"> </textarea> 
+            <p>Message:</p> <textarea name="message" rows="10" cols="50"> </textarea> <br />
             <input type="submit" value="Sign this in the Book" />
         </form>
     </div>
 </div>
-<br />
-<hr>
-<h2>Guestbook entries:</h2>
-<?php include ("guestbook.php"); ?> 
+<div>
+	<br />
+	<hr>
+	<h2>Guestbook entries:</h2>
+	<?php include ("guestbook.php"); ?> 
+</div>
 <div id="footer">
 	<hr/>
 	<p>Emaplis - IBM - VW </p>
