@@ -8,7 +8,7 @@
 	{
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
-	$result = mysqli_query($con,"SELECT name,message FROM guestbook");
+	$result = mysqli_query($con,"SELECT name,message FROM guestbook ORDER BY id DES");
 	while($row = mysqli_fetch_array($result))
 	{ ?>
 		<div style="width: 800px; background-color: #f5f5f5; padding: 10px; border: 1px; border-style: solid;"> 
