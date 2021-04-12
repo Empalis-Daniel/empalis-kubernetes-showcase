@@ -35,11 +35,10 @@ function Validate()
 
 <body>
 <div id="wrapper">
-	<div id="logo" style="display: block; margin-left: auto; margin-right: auto;">
+	<div id="logo">
 		<hr id="top"/>
 		<img src="img/empalis.png" id="imgLeft" style="width:400px; height:150px;" />
 		<img src="img/ibm.png" id="imgCenter" style="width:400px; height:150px;" />
-		<img src="img/vw.png" id="imgRight" style="width:400px; height:150px;" />
     	<p id="title"><span id="title"> >>>> Kubernetes / Spectrum Protect Plus Showcase <<<< </span></p>
 	</div>
     <div id="content">
@@ -60,7 +59,7 @@ function Validate()
 </div>
 <div id="footer">
 	<hr id="bottom"/>
-	<p>Emaplis - IBM - VW </p>
+	<p>Emaplis - IBM</p>
 </div>
 </body>
 </html>

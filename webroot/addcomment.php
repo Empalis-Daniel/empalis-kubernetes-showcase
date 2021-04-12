@@ -17,7 +17,7 @@
 		die('Error: ' . mysqli_error($con));
 	}
 	else
-		header("Refresh:0");
+		header('Location: index.php');
 	mysqli_close($con);
 ?>
  
