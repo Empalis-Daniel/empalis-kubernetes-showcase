@@ -49,9 +49,10 @@ function Validate()
         </form>
     </div>
 </div>
-    <div id="footer">
-    <hr/>
-    <p>Thank you for visiting our website! Be sure to check out our Guestbook! </p>
-    </div>
+<?php include ("guestbook.php"); ?>
+<div id="footer">
+	<hr/>
+	<p>Thank you for visiting our website! Be sure to check out our Guestbook! </p>
+</div>
 </body>
 </html>
