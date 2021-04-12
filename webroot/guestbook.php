@@ -10,15 +10,10 @@
 	}
 	$result = mysqli_query($con,"SELECT name,message FROM guestbook");
 	while($row = mysqli_fetch_array($result))
-	{
-		$data[] = $row;	
-	}
-	array_reverse($data);
-	foreach($data as $item)
 	{ ?>
 		<div style="width: 800px; background-color: #f5f5f5; padding: 10px; border: 1px; border-style: solid;"> 
-			<h4>Name: <?php echo $data['name']; ?></h3>
-			<p>Message:</p> <?php echo $data['message']; ?><br />
+			<h4>Name: <?php echo $row['name']; ?></h3>
+			<p>Message:</p> <?php echo $row['message']; ?><br />
 			<br />
 		</div>
 	<?php }
