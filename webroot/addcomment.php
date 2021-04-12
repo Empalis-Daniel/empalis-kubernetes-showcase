@@ -17,7 +17,7 @@
 		die('Error: ' . mysqli_error($con));
 	}
 	else
-		echo "Values Stored in our Database!";
+		header("Refresh:0");
 	mysqli_close($con);
 ?>
  
