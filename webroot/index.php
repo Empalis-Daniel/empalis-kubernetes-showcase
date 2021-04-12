@@ -38,9 +38,9 @@ function Validate()
 	<div id="logo">
 	<hr id="top"/>
     <img src="img/empalis.png" id="tLeft" />
-    <p id="title"><span id="title">>>>> Empalis <<<<</span></p>
+    <p id="title"><span id="title">>>>> VW Showcase <<<<</span></p>
     <div id="content">
-    <h2>Sign our Guest Book </h2>
+    <h2>Sign our Guest Book:</h2>
    		<form name="guest" method="post" action="addcomment.php" onsubmit="return Validate();">
 			<span>Name:</span>    <input type="text" name="name"/><br />
             <span>Email:</span> <input type="text" name="email"/><br />
@@ -49,10 +49,11 @@ function Validate()
         </form>
     </div>
 </div>
-<?php include ("guestbook.php"); ?>
+<h2>Guestbook entries:</h2>
+<?php include ("guestbook.php"); ?> 
 <div id="footer">
 	<hr/>
-	<p>Thank you for visiting our website! Be sure to check out our Guestbook! </p>
+	<p>Emaplis - IBM - VW </p>
 </div>
 </body>
 </html>
