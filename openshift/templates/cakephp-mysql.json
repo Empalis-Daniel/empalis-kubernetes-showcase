@@ -155,12 +155,6 @@
         "strategy": {
           "type": "Recreate",
           "recreateParams": {
-            "pre": {
-              "failurePolicy": "Retry",
-              "execNewPod": {
-                "containerName": "cakephp-mysql-example"
-              }
-            }
           }
         },
         "triggers": [
