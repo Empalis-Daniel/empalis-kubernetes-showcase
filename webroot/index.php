@@ -44,11 +44,13 @@ function Validate()
    		<form name="guest" method="post" action="addcomment.php" onsubmit="return Validate();">
 			<span>Name:</span>    <input type="text" name="name"/><br />
             <span>Email:</span> <input type="text" name="email"/><br />
-            <p>Message:</p> <textarea name="message" rows="10" cols="50"> </textarea> <br />
+            <p>Message:</p> <textarea name="message" rows="10" cols="50"> </textarea> 
             <input type="submit" value="Sign this in the Book" />
         </form>
     </div>
 </div>
+<br />
+<hr>
 <h2>Guestbook entries:</h2>
 <?php include ("guestbook.php"); ?> 
 <div id="footer">
